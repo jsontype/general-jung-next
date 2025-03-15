@@ -30,7 +30,7 @@ export default async function NewsList() {
         {news.map((newsItem: NewsItem) => (
           <div key={newsItem.id} >
             <Link href={newsItem.url}>
-              <h2 className="text-rose-500 decoration-white text-lg font-bold hover:opacity-80">{newsItem.title}</h2>
+              <h2 className="text-rose-400 decoration-white text-lg font-bold hover:opacity-80">{newsItem.title}</h2>
             </Link>
             <p>User ID: {newsItem.user}</p>
             <p>Points: {newsItem.points}</p>
